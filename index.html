@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Arizona</title>
+</head>
+<body>
+   <div class="grid-container">
+       <header class="header">
+           <div class="brand">
+               <button onclick="openMenu()">
+                   &#9776;
+               </button>
+               <a href="index.html">ARIZONA</a>
+           </div>
+           <div class="header-links">
+               <a href="cart.html">Cart</a> 
+               <a href="signin">Sign In</a>
+           </div>
+       </header>
+       <aside class="sidebar">
+           <h3>Shopping Categories</h3>
+           <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+           <ul>
+               <li>
+                   <a href="index.html">Pants</a>
+               </li>
+               <li>
+                   <a href="index.html">Shirts</a>
+               </li>
+           </ul>
+       </aside>
+       <main class="main">
+           <div class="content">
+    
+           
+           <ul class="products">
+               <li>
+                   <div class="product">
+                       <img class="product-image" src="images/image1.jpg" alt="products">
+                       <div class="product-name">
+                           <a href="products.html">Slim Shirt</a></div>
+                       <div class="product-brand">Nike</div>
+                       <div class="product-price">Rs.460</div>
+                       <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                
+                       
+                   </div>
+               </li>
+
+               <li>
+                <div class="product">
+                    <img class="product-image" src="images/image2.jpg" alt="products">
+                    <div class="product-name">
+                        <a href="products.html">Perfect Fit Shirt</a></div>
+                    <div class="product-brand">Buffalo</div>
+                    <div class="product-price">Rs.405</div>
+                    <div class="product-rating">4.3 Stars (8 Reviews)</div>
+             
+                    
+                </div>
+            </li>
+
+            <li>
+                <div class="product">
+                    <img class="product-image" src="images/image3.jpg" alt="products">
+                    <div class="product-name">
+                        <a href="products.html">Super Fit Shirt</a></div>
+                    <div class="product-brand">Levi's</div>
+                    <div class="product-price">Rs.765</div>
+                    <div class="product-rating">4.1 Stars (7 Reviews)</div>
+             
+                    
+                </div>
+            </li>
+
+            <li>
+                <div class="product">
+                    <img class="product-image" src="images/image4.jpg" alt="products">
+                    <div class="product-name">
+                        <a href="products.html">Smart Fit Shirt</a></div>
+                    <div class="product-brand">Ruggers</div>
+                    <div class="product-price">Rs.660</div>
+                    <div class="product-rating">4.5 Stars (18 Reviews)</div>
+             
+                    
+                </div>
+            </li>
+
+            <li>
+                <div class="product">
+                    <img class="product-image" src="images/image5.jpg" alt="products">
+                    <div class="product-name">
+                        <a href="products.html">Regular Fit Shirt</a></div>
+                    <div class="product-brand">US Polo</div>
+                    <div class="product-price">Rs.860</div>
+                    <div class="product-rating">4.5 Stars (12 Reviews)</div>
+             
+                    
+                </div>
+            </li>
+               
+            <li>
+                <div class="product">
+                    <img class="product-image" src="images/image6.jpg" alt="products">
+                    <div class="product-name">
+                        <a href="products.html">Tight Fit Shirt</a></div>
+                    <div class="product-brand">Lee</div>
+                    <div class="product-price">Rs.680</div>
+                    <div class="product-rating">4.8 Stars (15 Reviews)</div>
+             
+                    
+                </div>
+            </li>
+
+           </ul>
+        </div>
+       </main>
+       <footer class="footer">
+           All Rights Reserved.
+       </footer>
+   </div> 
+    <script>
+        function openMenu() {
+            document.querySelector(".sidebar").classList.add("sidebar-open");
+        }
+        function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("sidebar-open");
+        }
+    </script>
+</body>
+</html>
